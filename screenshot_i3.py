@@ -20,4 +20,4 @@ def screen_shot(dir = r"/home/abdulmajed/Pictures/Screenshots") -> None:
     
     shot.save(rf"{dir}/{name}")
     
- if __name__ == '__main__': screen_shot()
+if __name__ == '__main__': screen_shot()
