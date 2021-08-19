@@ -19,5 +19,5 @@ def screen_shot(dir = r"/home/abdulmajed/Pictures/Screenshots") -> None:
     name = NAME.format(last_shot + 1)
     
     shot.save(rf"{dir}/{name}")
-
-screen_shot()
+    
+ if __name__ == '__main__': screen_shot()
