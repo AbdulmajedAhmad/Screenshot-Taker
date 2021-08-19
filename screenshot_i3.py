@@ -18,9 +18,6 @@ def screen_shot(dir = r"/home/abdulmajed/Pictures/Screenshots") -> None:
             os.rename(shot, NAME.format(index))
             print("After:\n",ls,sep='')
 
-    #if name in ls:
-        #name = name.split(".png")[0] + "(1)" + ".png"
-
     shot = pya.screenshot()
     name = NAME.format(last_shot + 1)
     print(f"name:{name}")
