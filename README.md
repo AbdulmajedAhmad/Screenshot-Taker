@@ -5,6 +5,6 @@ I'm using this script with i3WM, such that when I press "PrtScr" button script w
 (If you want so: add this line to your i3 config file:
   "binsym PrtScr exec python /PATH/TO/SCRIPT/screenshot_i3.py")
   
-# Requirements
+## Requirements
   - Python3
   - pyautogui
